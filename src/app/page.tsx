@@ -4,7 +4,7 @@ import { useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { Button, Divider } from 'antd';
-import { InstagramOutlined, LinkedinOutlined, GithubOutlined, GoogleOutlined } from '@ant-design/icons';
+import { InstagramOutlined, LinkedinOutlined, GithubOutlined, MailOutlined } from '@ant-design/icons';
 
 export default function Home() {
   useEffect(() => {
@@ -54,7 +54,7 @@ export default function Home() {
           </Link>
           <Divider type="vertical" style={{ borderColor: '#ffcc66a4' }} />
           <Link href="mailto:erkmangls@gmail.com" passHref>
-            <Button style={{color: '#ffcc66a4'}} type="link" icon={<GoogleOutlined />} size="large"/>
+            <Button style={{color: '#ffcc66a4'}} type="link" icon={<MailOutlined />} size="large"/>
           </Link>
         </div>
         <div className='copyright'>

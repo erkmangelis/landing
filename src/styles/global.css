@@ -2,6 +2,7 @@ body {
     background-color: rgba(21,13,8,255);
     font-family: 'Almendra', serif;
     user-select: none;
+    height: 100vh;
 }
 
   header {
@@ -60,7 +61,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid;
     border-radius: 8px;
     padding: 5px;
     background: radial-gradient(rgba(95,65,57,255));
